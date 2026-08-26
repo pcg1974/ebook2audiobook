@@ -16,18 +16,18 @@ Use this tool responsibly and in accordance with all applicable laws.
 
 [![Quick Start](https://img.shields.io/badge/Quick%20Start-blue?style=for-the-badge)](#instructions)
 
-[![Docker Build](https://github.com/DrewThomasson/ebook2audiobook/actions/workflows/Docker-Build.yml/badge.svg)](https://github.com/DrewThomasson/ebook2audiobook/actions/workflows/Docker-Build.yml)  [![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/DrewThomasson/ebook2audiobook/releases/latest)   
+[![Docker Build](https://github.com/pcg1974/ebook2audiobook/actions/workflows/Docker-Build.yml/badge.svg)](https://github.com/pcg1974/ebook2audiobook/actions/workflows/Docker-Build.yml)  [![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/pcg1974/ebook2audiobook/releases/latest)   
 
 
-<a href="https://github.com/DrewThomasson/ebook2audiobook">
+<a href="https://github.com/pcg1974/ebook2audiobook">
   <img src="https://img.shields.io/badge/Platform-mac%20|%20linux%20|%20windows-lightgrey" alt="Platform">
 </a><a href="https://hub.docker.com/r/athomasson2/ebook2audiobook">
 <img alt="Docker Pull Count" src="https://img.shields.io/docker/pulls/athomasson2/ebook2audiobook.svg"/>
 </a>
 
 ### Run Remotely
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/drewThomasson/ebook2audiobook)
-[![Free Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrewThomasson/ebook2audiobook/blob/main/Notebooks/colab_ebook2audiobook.ipynb) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://github.com/Rihcus/ebook2audiobookXTTS/blob/main/Notebooks/kaggle-ebook2audiobook.ipynb)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/pcg1974/ebook2audiobook)
+[![Free Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pcg1974/ebook2audiobook/blob/main/Notebooks/colab_ebook2audiobook.ipynb) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://github.com/Rihcus/ebook2audiobookXTTS/blob/main/Notebooks/kaggle-ebook2audiobook.ipynb)
 
 #### GUI Interface
 ![demo_web_gui](assets/demo_web_gui.gif)
@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/81c4baad-117e-4db5-ac86-efc2b7fea921
 
 **Example**
 
-![Example](https://github.com/DrewThomasson/VoxNovel/blob/dc5197dff97252fa44c391dc0596902d71278a88/readme_files/example_in_app.jpeg)
+![Example](https://github.com/pcg1974/VoxNovel/blob/dc5197dff97252fa44c391dc0596902d71278a88/readme_files/example_in_app.jpeg)
 </details>
 
 ## README.md
@@ -168,7 +168,7 @@ So you should first remove manually any text you don't want to be converted in a
 ### Instructions 
 1. **Clone repo**
 	```bash
-	git clone https://github.com/DrewThomasson/ebook2audiobook.git
+	git clone https://github.com/pcg1974/ebook2audiobook.git
 	cd ebook2audiobook
 	```
 
@@ -371,7 +371,7 @@ TIP: if it needs some more pause, add '[pause:3]' for 3 sec. etc.
 ### Docker
 1. **Clone the Repository**:
 ```bash
-   git clone https://github.com/DrewThomasson/ebook2audiobook.git
+   git clone https://github.com/pcg1974/ebook2audiobook.git
    cd ebook2audiobook
 ```
 2. **Build the container**
@@ -439,17 +439,17 @@ added to the list, please contact us and we'll add them after review.
 ## Fine Tuned TTS models
 #### Fine Tune your own XTTSv2 model
 
-[Universal_TTS_Finetune](./components/Universal_TTS_Finetune) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/drewThomasson/xtts-finetune-webui-gpu) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://github.com/DrewThomasson/ebook2audiobook/blob/v25/Notebooks/finetune/xtts/kaggle-xtts-finetune-webui-gradio-gui.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrewThomasson/ebook2audiobook/blob/v25/Notebooks/finetune/xtts/colab_xtts_finetune_webui.ipynb)
+[Universal_TTS_Finetune](./components/Universal_TTS_Finetune) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/pcg1974/xtts-finetune-webui-gpu) [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=flat&logo=kaggle&logoColor=white)](https://github.com/pcg1974/ebook2audiobook/blob/v25/Notebooks/finetune/xtts/kaggle-xtts-finetune-webui-gradio-gui.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pcg1974/ebook2audiobook/blob/v25/Notebooks/finetune/xtts/colab_xtts_finetune_webui.ipynb)
 
 
 #### De-noise training data
 
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/drewThomasson/DeepFilterNet2_no_limit) [![GitHub Repo](https://img.shields.io/badge/DeepFilterNet-181717?logo=github)](https://github.com/Rikorose/DeepFilterNet)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Spaces-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/pcg1974/DeepFilterNet2_no_limit) [![GitHub Repo](https://img.shields.io/badge/DeepFilterNet-181717?logo=github)](https://github.com/Rikorose/DeepFilterNet)
 
 
 ### Fine Tuned TTS Collection
 
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models-yellow?style=flat&logo=huggingface)](https://huggingface.co/drewThomasson/fineTunedTTSModels/tree/main)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models-yellow?style=flat&logo=huggingface)](https://huggingface.co/pcg1974/fineTunedTTSModels/tree/main)
 
 For an XTTSv2 custom model a ref audio clip of the voice reference is mandatory:
 
@@ -460,15 +460,15 @@ back the original one. You must plan the same process for models.py. If you wish
 as an official ebook2audiobook fine tuned model so please contact us and we'll add it to the presets list.
 
 ## Reverting to older Versions
-Releases can be found -> [here](https://github.com/DrewThomasson/ebook2audiobook/releases)
+Releases can be found -> [here](https://github.com/pcg1974/ebook2audiobook/releases)
 ```bash
 git checkout tags/VERSION_NUM # Locally/Compose -> Example: git checkout tags/v25.7.7
 ```
 
 ## Common Issues:
-- My NVIDIA/ROCm/XPU/MPS GPU isn't being detected?? -> [GPU ISSUES Wiki Page](https://github.com/DrewThomasson/ebook2audiobook/wiki/GPU-ISSUES)
+- My NVIDIA/ROCm/XPU/MPS GPU isn't being detected?? -> [GPU ISSUES Wiki Page](https://github.com/pcg1974/ebook2audiobook/wiki/GPU-ISSUES)
 -  CPU is slow (better on server smp CPU) while GPU can have almost real time conversion.
-   [Discussion about this](https://github.com/DrewThomasson/ebook2audiobook/discussions/19#discussioncomment-10879846)
+   [Discussion about this](https://github.com/pcg1974/ebook2audiobook/discussions/19#discussioncomment-10879846)
    (It doesn't have zero-shot voice cloning though, and is Siri quality voices, but it is much faster on cpu).
 - "I'm having dependency issues" - Just use the docker, its fully self contained and has a headless mode,
    add `--help` parameter at the end of the docker run command for more information.
@@ -483,8 +483,8 @@ git checkout tags/VERSION_NUM # Locally/Compose -> Example: git checkout tags/v2
 - [x] SML tags integration for voice, pause, break, and more changes 
 - [x] -h -help parameter info in different languages
 - [x] OCR scanning for PDF / JPG / BMP / PNG / TIFF
-- [x] Notebooks Folder [Talked about here](https://github.com/DrewThomasson/ebook2audiobookXTTS/issues/5#issuecomment-2408773254)
-- [x] Make Chinese text splitting not split words and improve pause timing [Talked about here](https://github.com/DrewThomasson/ebook2audiobookXTTS/issues/18#issuecomment-2401154894)
+- [x] Notebooks Folder [Talked about here](https://github.com/pcg1974/ebook2audiobookXTTS/issues/5#issuecomment-2408773254)
+- [x] Make Chinese text splitting not split words and improve pause timing [Talked about here](https://github.com/pcg1974/ebook2audiobookXTTS/issues/18#issuecomment-2401154894)
 - [x] Dockerfile
 - [x] Docker compose
 - [x] Podman compose   
@@ -498,8 +498,8 @@ git checkout tags/VERSION_NUM # Locally/Compose -> Example: git checkout tags/v2
 - [x] GPU Device detection
 - [x] Denoise any background reference audio for voice cloning upload
 - [x] Custom fine-tuned model upload
-- [ ] [Make a IOS app](https://github.com/DrewThomasson/ebook2audiobook/pull/35#issuecomment-2496495212)
-- [ ] [Make an android app](https://github.com/DrewThomasson/ebook2audiobook/pull/35#issuecomment-2496495212)
+- [ ] [Make a IOS app](https://github.com/pcg1974/ebook2audiobook/pull/35#issuecomment-2496495212)
+- [ ] [Make an android app](https://github.com/pcg1974/ebook2audiobook/pull/35#issuecomment-2496495212)
 
 #### User Requests
 - [ ] Add European Portuguese language model for xttsv2, fairseq, vits, piper at least (help welcome)
@@ -574,7 +574,7 @@ git checkout tags/VERSION_NUM # Locally/Compose -> Example: git checkout tags/v2
 **********
 
 ## Extra Overkill for training models and such (All supported Coqui-tts models and piper-tts in one easy command) 
-- For info about this @DrewThomasson, he is currently working on the development of this, [work-in-progress-repo here](https://github.com/DrewThomasson/Universal_TTS_Finetune)
+- For info about this @pcg1974, he is currently working on the development of this, [work-in-progress-repo here](https://github.com/pcg1974/Universal_TTS_Finetune)
 - [ ] Make a easy to use training gui for all coqui-tts models in the ljspeech format training recipes [here from coqui tts](https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech)
 
 
@@ -629,10 +629,10 @@ We accept any kind of hardware to test our development like:
 - XPU intel cards
 - ROCm AMD cards supporting ROCm >=5.7
 
-@DrewThomasson if you want to help out at all! 😃
+@pcg1974 if you want to help out at all! 😃
 <!--
 ## Do you need to rent a GPU to boost service from us?
-- A poll is open here https://github.com/DrewThomasson/ebook2audiobook/discussions/889
+- A poll is open here https://github.com/pcg1974/ebook2audiobook/discussions/889
 -->
 
 ## Special Thanks
